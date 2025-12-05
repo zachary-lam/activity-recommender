@@ -39,7 +39,10 @@ struct ContentView: View {
             Spacer()
             
             Button("New Activity") {
-                selectedActivity = activities.randomElement() ?? "Archery"
+                withAnimation(.easeInOut(duration: 0.1)) {
+                    selectedActivity = activities.randomElement() ?? "Archery"
+                }
+
             }
             .buttonStyle(.borderedProminent)
         }
@@ -49,3 +52,4 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+Ç
