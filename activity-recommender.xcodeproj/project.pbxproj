@@ -7,21 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		78DD1C1D2EE3733C00CCEE88 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 78DD1C1B2EE3733800CCEE88 /* README.md */; };
+		78A9E9052EE3A65C00992E7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F533672EE3A52500F1D7F8 /* ContentView.swift */; };
+		78A9E9062EE3A6B200992E7D /* activity_recommenderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F533652EE3A52500F1D7F8 /* activity_recommenderApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		78DD1C0D2EE3724500CCEE88 /* why-not-try.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "why-not-try.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78DD1C0D2EE3724500CCEE88 /* activity-recommender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "activity-recommender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78DD1C1B2EE3733800CCEE88 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		78F533652EE3A52500F1D7F8 /* activity_recommenderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = activity_recommenderApp.swift; sourceTree = "<group>"; };
+		78F533662EE3A52500F1D7F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78F533672EE3A52500F1D7F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		78DD1C0F2EE3724500CCEE88 /* why-not-try */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "why-not-try";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		78DD1C0A2EE3724500CCEE88 /* Frameworks */ = {
@@ -37,8 +33,8 @@
 		78DD1C042EE3724500CCEE88 = {
 			isa = PBXGroup;
 			children = (
+				78F533682EE3A52500F1D7F8 /* activity-recommender */,
 				78DD1C1B2EE3733800CCEE88 /* README.md */,
-				78DD1C0F2EE3724500CCEE88 /* why-not-try */,
 				78DD1C0E2EE3724500CCEE88 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,17 +42,27 @@
 		78DD1C0E2EE3724500CCEE88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				78DD1C0D2EE3724500CCEE88 /* why-not-try.app */,
+				78DD1C0D2EE3724500CCEE88 /* activity-recommender.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		78F533682EE3A52500F1D7F8 /* activity-recommender */ = {
+			isa = PBXGroup;
+			children = (
+				78F533652EE3A52500F1D7F8 /* activity_recommenderApp.swift */,
+				78F533662EE3A52500F1D7F8 /* Assets.xcassets */,
+				78F533672EE3A52500F1D7F8 /* ContentView.swift */,
+			);
+			path = "activity-recommender";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		78DD1C0C2EE3724500CCEE88 /* why-not-try */ = {
+		78DD1C0C2EE3724500CCEE88 /* activity-recommender */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78DD1C182EE3724600CCEE88 /* Build configuration list for PBXNativeTarget "why-not-try" */;
+			buildConfigurationList = 78DD1C182EE3724600CCEE88 /* Build configuration list for PBXNativeTarget "activity-recommender" */;
 			buildPhases = (
 				78DD1C092EE3724500CCEE88 /* Sources */,
 				78DD1C0A2EE3724500CCEE88 /* Frameworks */,
@@ -66,14 +72,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				78DD1C0F2EE3724500CCEE88 /* why-not-try */,
-			);
-			name = "why-not-try";
+			name = "activity-recommender";
 			packageProductDependencies = (
 			);
 			productName = "why-not-try";
-			productReference = 78DD1C0D2EE3724500CCEE88 /* why-not-try.app */;
+			productReference = 78DD1C0D2EE3724500CCEE88 /* activity-recommender.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,7 +94,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 78DD1C082EE3724500CCEE88 /* Build configuration list for PBXProject "why-not-try" */;
+			buildConfigurationList = 78DD1C082EE3724500CCEE88 /* Build configuration list for PBXProject "activity-recommender" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -105,7 +108,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78DD1C0C2EE3724500CCEE88 /* why-not-try */,
+				78DD1C0C2EE3724500CCEE88 /* activity-recommender */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78DD1C1D2EE3733C00CCEE88 /* README.md in Sources */,
+				78A9E9062EE3A6B200992E7D /* activity_recommenderApp.swift in Sources */,
+				78A9E9052EE3A65C00992E7D /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +274,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.zacharylam.why-not-try";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.zacharylam.activity-recommender";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -301,7 +305,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.zacharylam.why-not-try";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.zacharylam.activity-recommender";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -316,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		78DD1C082EE3724500CCEE88 /* Build configuration list for PBXProject "why-not-try" */ = {
+		78DD1C082EE3724500CCEE88 /* Build configuration list for PBXProject "activity-recommender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78DD1C162EE3724600CCEE88 /* Debug */,
@@ -325,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78DD1C182EE3724600CCEE88 /* Build configuration list for PBXNativeTarget "why-not-try" */ = {
+		78DD1C182EE3724600CCEE88 /* Build configuration list for PBXNativeTarget "activity-recommender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78DD1C192EE3724600CCEE88 /* Debug */,
