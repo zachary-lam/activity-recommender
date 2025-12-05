@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var activities = ["Archery", "Baseball", "Basketball", "Bowling", "Boxing", "Cricket", "Curling", "Fencing", "Golf", "Hiking", "Lacrosse", "Rugby", "Squash"]
     
-    @State var selectedActivity = "Archery" // hardcoded default
+    @State private var selectedActivity = "Archery" // hardcoded default
     
     
     var body: some View {
