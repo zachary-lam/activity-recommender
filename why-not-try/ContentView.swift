@@ -14,6 +14,7 @@ struct ContentView: View {
     
     @State private var selectedActivity = "Archery" // hardcoded default
     
+    @State private var id = 1
     
     var body: some View {
         VStack{
@@ -34,13 +35,15 @@ struct ContentView: View {
                 
                 Text(selectedActivity)
                     .font(.title)
-            }
+            }.transition(.slide)
+                .id(id)
             
             Spacer()
             
             Button("New Activity") {
-                withAnimation(.easeInOut(duration: 0.1)) {
+                withAnimation(.easeInOut(duration: 1)) {
                     selectedActivity = activities.randomElement() ?? "Archery"
+                    id += 1
                 }
 
             }
@@ -52,4 +55,3 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
-Ç
